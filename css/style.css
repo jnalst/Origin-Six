@@ -1,3 +1,10 @@
-@import "./global.css";
-@import "./cores.css";
-@import "./fonts.css";
+@import "./utilitario/global.css";
+@import "./utilitario/cores.css";
+@import "./utilitario/fonts.css";
+@import "./utilitario/utilitarios.css";
+@import "./header/header.css";
+@import "./intro/intro.css";
+@import "./sobre/sobre.css";
+@import "./servico/servico.css";
+
+@import "./contato/contato.css";

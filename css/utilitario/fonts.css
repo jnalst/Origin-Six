@@ -1,0 +1,41 @@
+.dm-sans-bold {
+  color: var(--greenDark);
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.dm-sans-bold-active {
+  color: var(--greenPrimary);
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.poppins-tittle-bold {
+  color: var(--greenDark);
+  font-family: "Poppins", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+.dm-sans-light-gray {
+  color: var(--lightGray);
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.poppins-sub-tittle-bold {
+  color: var(--greenDark);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.dm-sans-white-footer {
+  color: var(--greenBackground1);
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}

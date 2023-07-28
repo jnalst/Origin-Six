@@ -1,0 +1,37 @@
+.menu-bg {
+  background-color: var(--greenBackground1);
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.menu .menu-itens {
+  display: flex;
+  gap: 3.2rem;
+  font-size: 1.6rem;
+  justify-content: end;
+}
+
+.menu .menu-itens a:hover {
+  color: var(--greenPrimary);
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  position: relative;
+}
+
+.menu picture img {
+  padding-top: 2.3rem;
+  padding-bottom: 2.4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+}

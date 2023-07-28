@@ -1,0 +1,56 @@
+.servico-bg {
+  background-color: var(--greenBackground1);
+}
+
+.servico {
+  display: grid;
+  place-items: center;
+  padding-block: 16rem;
+}
+
+.servico-texto {
+ text-align: center;
+ max-width: 97.934372ch;
+}
+
+.servico-texto h3 {
+  padding-bottom: 1.2rem;
+}
+
+.servico-texto p {
+  padding-bottom: 6.4rem;
+}
+
+.servicoLista {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.servicoLista li {
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08),inset 0 -.5rem #69B99D ;
+  border-radius: .2rem;
+  display: grid;
+  place-items: center;
+  padding-block: 5.8rem;
+  padding-inline: 4.8rem;
+}
+
+.servicoLista li img {
+padding-bottom: 2.4rem;
+}
+
+.servicoLista li h4 {
+  padding-bottom: 1.2rem;
+}
+
+.servicoLista li p {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .servicoLista {
+    display: flex;
+    flex-direction: column;
+  }
+}

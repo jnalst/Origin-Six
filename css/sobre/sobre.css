@@ -1,0 +1,40 @@
+.sobre-bg {
+  padding-block: 16rem;
+}
+
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  gap: 6.4rem;
+}
+
+.sobre-foto {
+  object-fit: contain;
+}
+
+.sobre-texto h2 {
+  padding-bottom: 1.2rem;
+}
+
+.sobre-texto p {
+  font-size: 1.6rem;
+  padding-bottom: 1.6rem;
+  max-width: 56ch;
+}
+
+@media screen and (max-width: 1028px) {
+  .sobre {
+    grid-template-columns: 1fr;
+  }
+
+  
+  .sobre-texto {
+    padding-inline: 2rem;
+  }
+
+  .sobre-bg {
+    padding-block: 8rem;
+  }
+
+}

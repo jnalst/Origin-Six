@@ -1,0 +1,36 @@
+:root {
+  /* PRIMEIRA OPÇÃO */
+  --greenDark: #0F241D;
+  --greenPrimary: #69B99D;
+  --greenSecond: #CCF4E6;
+  --greenBackground1: #F9F9F9;
+  --greenBackground2: #FFFFFF;
+  --lightGray: #767676;
+
+  /* SEGUNDA OPÇÃO */
+  --orangeDark: #30220E;
+  --orangePrimary: #FFA724;
+  --orangeSecond: #FCD397;
+  --orangeBackground1: #F9F9F9;
+  --orangeBackground2: #FFFFFF;
+
+   /* TERCEIRA OPÇÃO */
+   --purpleDark: #261932;
+   --purplePrimary: #A152EF;
+   --purpleSecond: #D3CADD;
+   --purpleBackground1: #F9F9F9;
+   --purpleBackground2: #FFFFFF;
+
+   /* QUARTA OPÇÃO */
+   --pinkDark: #000000;
+   --pinkPrimary: #FF3366;
+   --pinkSecond: #F67797;
+   --pinkBackground1: #F9F9F9;
+   --pinkBackground2: #FFFFFF;
+}
+
+
+
+
+
+
