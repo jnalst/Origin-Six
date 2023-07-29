@@ -9,12 +9,101 @@
 }
 
 .contato-texto h6 {
-text-align: left;
-max-width: 15ch;
-padding-bottom: 1.2rem;
+  text-align: left;
+  max-width: 15ch;
+  padding-bottom: 1.2rem;
 }
 
 .contato-texto p {
   font-size: 1.6rem;
+  padding-bottom: 2.4rem;
+  max-width: 30ch;
+}
+
+.contato-texto a {
+  position: relative;
+  padding-left: 6.6rem;
+}
+
+.contato-texto a::before {
+  content: "";
+  position: absolute;
+  background-image: url('/assets/icons/whatsapp.svg');
+  background-repeat: no-repeat;
+  width: 2.4rem;
+  height: 2.4rem;
+  top: 1.4rem;
+  left: 3.4rem;
+}
+
+.contato-telefone {
+  display: grid;
+  align-items: center;
+  justify-items: start;
+  font-size: 1.6rem;
+}
+
+.contato-telefone li {
+  padding-bottom: 3.2rem;
+  font-size: 1.6rem;
+  position: relative;
+  padding-left: 3.6rem;
+}
+
+.contato-telefone li a {
+  font-size: 1.6rem;
+}
+
+.contato-telefone li:first-child::before {
+  content: " ";
+  background-image: url('/assets/icons/telefone.svg');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 0;
+}
+
+.contato-telefone li:nth-child(2)::before{
+  content: " ";
+  background-image: url('/assets/icons/localizacao.svg');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 0;
+}
+
+.contato-telefone li:last-child:before{
+  content: " ";
+  background-image: url('/assets/icons/email.svg');
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 2.4rem;
+  height: 2.4rem;
+  left: 0;
+}
+
+@media screen and (max-width: 1028px) {
+  .contato {
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 5rem;
+  }
+
+  .contato-telefone li {
+    padding-left: 0rem;
+  }
+
+  .contato-telefone li:first-child::before {
+    left: -4rem;
+  }
   
+  .contato-telefone li:nth-child(2)::before{
+    left: -4rem;
+  }
+  
+  .contato-telefone li:last-child:before{
+    left: -4rem;
+  }
 }

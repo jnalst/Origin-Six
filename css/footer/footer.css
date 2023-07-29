@@ -1,0 +1,35 @@
+.footer-bg {
+    background-color: var(--greenPrimary);
+}
+
+.footer-conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-block: 6rem;
+}
+
+.footer-logo picture img {
+    padding-bottom: 2.4rem;
+}
+
+.footer-logo p {
+    padding-bottom: 1.2rem;
+}
+
+.footer-redes {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 3.2rem;
+}
+
+@media screen and (max-width: 500px) {
+    .footer-conteudo {
+        grid-template-columns: 1fr; 
+    }
+
+    .footer-redes {
+        padding-top: 3.2rem;
+        justify-content: start;
+    }
+}
