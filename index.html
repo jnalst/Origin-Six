@@ -19,8 +19,10 @@
         <picture>
           <a href=""><img src="./assets/logo.svg" alt="Logo" /></a>
         </picture>
-        <nav>
-          <ul class="menu-itens dm-sans-light-gray">
+        <nav id="nav">
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu-itens" aria-expanded="false"><span id="hamburger"></span>
+          </button>
+          <ul class="menu-itens dm-sans-light-gray" role="menu">
             <li><a href="#inicio">Início</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#servico">Serviço</a></li>
@@ -31,7 +33,7 @@
       </div>
     </header>
 
-    <main aria-label="Intro" class="intro-bg">
+    <main id="inicio" aria-label="Intro" class="intro-bg">
       <div class="intro container-1440">
         <div class="intro-texto">
           <h1 class="poppins-tittle-bold">
@@ -124,7 +126,7 @@
         </div>
       </div>
     </section>
-    <section class="depoimento-bg">
+    <section id="depoimentos" class="depoimento-bg">
       <div class="depoimento container-1680">
         <div class="depoimento-texto">
           <h5 class="poppins-tittle-bold">Depoimentos de quem já passou por aqui</h5>
@@ -224,7 +226,7 @@
 </div>
       </div>
     </section>
-    <section class="contato-bg">
+    <section id="contato" class="contato-bg">
       <div class="contato container-1440">
         <div class="contato-texto">
           <h6 class="poppins-sub-tittle-bold">Entre em contato com a gente!</h6>
