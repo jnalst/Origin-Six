@@ -1,0 +1,44 @@
+.depoimento-texto h5{
+    text-align: center;
+    max-width: 20ch;
+    margin: 0 auto;
+    
+}
+
+.depoimento{
+    margin-block: 16rem;
+}
+
+.comment-container{
+    max-width: 80ch;
+    margin: 0 auto;
+    padding: 2rem 8rem;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.08) ;
+  border-radius: .2rem;
+  margin-block: 5rem;
+  gap: 0px;
+}
+
+.comment-container p{
+    font-weight: 400;
+line-height: 2.6rem; /* 162.5% */
+}
+
+.comment-name{
+    display: flex;
+    align-items: center;
+    margin-block: 2.6rem;  
+}
+
+
+.comment-name img{
+    margin-inline-end: 1rem;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--greenPrimary) !important;
+}
+
+.swiper{
+    padding-inline: 2rem !important;
+}
