@@ -1,5 +1,8 @@
 .contato-bg {
   background-color: var(--greenBackground1);
+  border-top: 1px solid transparent;
+  border-image: linear-gradient(-270deg, #69B99D 0%, rgba(204, 244, 230, 0.34) 100%);
+  border-image-slice: 1;
 }
 
 .contato {
